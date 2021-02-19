@@ -1,0 +1,13 @@
+- Please note that Passwords are encrypted in the textfile you will not be able to access them.
+
+- Login credentials for Admin
+
+*Username: Wishiya
+*Password : 1234
+
+- Login credentials for General user
+
+*Username: Cedric
+*Password : 5678
+
+- Please note that you may create your own credentials to login as well.
