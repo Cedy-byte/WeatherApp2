@@ -31,20 +31,3 @@ WindSpeed INT NOT NULL,
 Username VARCHAR (50) NOT NULL,
 FOREIGN KEY (Username) REFERENCES Users (Username)
 );
-
-INSERT INTO Users VALUES
-('cedy','Admin','123'),
-('Wishiya','General User','123');
-
-INSERT INTO Weather VALUES
-('Durban','2020-07-27 10:34:09 AM',30,45,56,67,78);
-
-INSERT INTO FavoriteCities VALUES
-('Durban','2020-07-27 10:34:09 AM',30,45,56,67,78,'Esther'),
-('Durban','2020-07-27 10:34:09 AM',30,45,56,67,78,'Cedric');
-
-Select*from Users
-Select*from Weather
-select * from FavoriteCities
-
-drop table FavoriteCities
